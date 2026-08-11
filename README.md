@@ -1,80 +1,137 @@
-# Cybersecurity Lab Setup
+<div align="center">
 
-## NetworkWalks | Week 1 Cybersecurity Project
+# 🔐 Cybersecurity Lab Environment Setup
 
-I completed my first hands-on cybersecurity project as part of the NetworkWalks B082 training program.
+**Building a controlled virtual environment for cybersecurity learning and authorized security testing**
 
-The project focused on setting up a practical cybersecurity lab environment and preparing it for future cybersecurity and networking exercises.
+</div>
 
-## Project Objectives
+<p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity-Student-C00000?style=flat-square" />
+  <img src="https://img.shields.io/badge/VirtualBox-7.2-0070C0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-2026.2-E87500?style=flat-square&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linux-Cybersecurity-C00000?style=flat-square" />
+  <img src="https://img.shields.io/badge/NetworkWalks-B082-C00000?style=flat-square" />
+</p>
 
-- Set up a cybersecurity lab environment
-- Configure the network environment
-- Install and configure Kali Linux
-- Verify network connectivity
-- Prepare the environment for future cybersecurity practicals
-- Document the setup process and troubleshooting steps
+---
 
-## Tools Used
+## 📌 Project Overview
 
-- Kali Linux
-- VirtualBox
-- Linux networking tools
-- GitHub
+This project is my Week 1 cybersecurity laboratory setup completed as part of the NetworkWalks B082 training program.
 
-- ## Step 1: Download and Install 7-Zip
+The goal was to build a controlled virtual environment using VirtualBox and Kali Linux that can be used for cybersecurity learning, networking practice, and authorized security testing.
 
-7-Zip was downloaded and installed on the host computer.
+The laboratory uses a private virtual network so that additional virtual machines can be added for future practical exercises.
 
-7-Zip was required to extract the compressed cybersecurity lab files before setting up the virtual machine environment.
+---
 
-### Installation
+## 🎯 Objectives
 
-1. Download 7-Zip from the official website.
-2. Install 7-Zip on the host computer.
-3. Confirm that the installation completed successfully.
-4. Use 7-Zip to extract the required lab files.
+The main objectives of this project were to:
 
-### Verification
+- Set up a cybersecurity laboratory environment.
+- Install and configure VirtualBox.
+- Import and configure Kali Linux.
+- Create a private NAT Network.
+- Configure Kali Linux networking.
+- Verify network connectivity.
+- Create a clean VM snapshot.
+- Document the setup process.
+- Prepare the environment for future cybersecurity practicals.
 
-After installation, 7-Zip was available on the host system and ready to extract the required files.
+---
 
-> Screenshot: Add a screenshot showing the 7-Zip installation or the extracted lab files here.
+## 🛡️ Purpose of the Lab
 
-## Step 2: Install and Configure VirtualBox
+The laboratory provides a controlled environment for cybersecurity learning and authorized security testing.
 
-VirtualBox was used to create and manage the virtual machine for the cybersecurity lab.
+It can be used for activities such as:
 
-### Installation
+- Network reconnaissance
+- Port scanning
+- Vulnerability assessment
+- Packet analysis
+- Web security testing
+- Security-tool practice
+- Linux and networking exercises
 
-I downloaded and installed Oracle VirtualBox on the host computer.
+⚠️ **Important:** This laboratory should only be used against systems that I own or have explicit permission to test.
 
-### VirtualBox Configuration
+---
 
-After installation, I opened VirtualBox and prepared the networking configuration for the Kali Linux virtual machine.
+## 🏗️ Lab Architecture
 
-The lab network was configured using a NAT Network.
+![Lab Architecture](1-screenshot-title-image.png)
 
-| Configuration | Value |
+The laboratory is designed so that additional virtual machines can be connected to the same private network for future authorized security exercises.
+
+---
+
+## ⚙️ Lab Configuration
+
+| Component | Configuration |
 |---|---|
-| Network Type | NAT Network |
-| Network Name | CyberLab-Network |
-| Network Range | 10.0.0.0/24 |
-| DHCP | Enabled |
-| Purpose | Isolated cybersecurity lab |
+| 🖥️ Host OS | Windows 10 |
+| 🧰 Hypervisor | VirtualBox 7.2 |
+| 🐉 Security OS | Kali Linux 2026.2 |
+| 🧠 Kali RAM | 2048 MB |
+| 🌐 Virtual Network | NAT Network |
+| 📡 Network Address | 10.0.0.0/24 |
+| 🐧 Kali IP Address | 10.0.0.2/24 |
+| 🚪 Default Gateway | 10.0.0.1 |
+| 🌍 DNS Server | 8.8.8.8 |
+| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
-### Why NAT Network?
+> **Note:** Host hardware specifications will be added based on my actual laptop configuration.
 
-The NAT Network allows the virtual machines in the lab to communicate with each other while keeping the lab environment separated from the main network.
+---
 
-### Verification
+# 🪜 Lab Setup Procedure
 
-I verified that the NAT Network was created successfully in VirtualBox and was available for the Kali Linux virtual machine.
+## Step 1: Install 7-Zip
 
-### Screenshot
+7-Zip was installed to extract the compressed files required for the cybersecurity laboratory setup.
 
-![VirtualBox Network Configuration](screenshots/virtualbox-network.png)
+### Process
 
-### Notes
+1. Download 7-Zip.
+2. Install it on the host computer.
+3. Confirm that the installation completed successfully.
+4. Extract the required laboratory files.
 
-This configuration was created as part of the NetworkWalks Week 1 cybersecurity lab setup. The environment will be used for authorized cybersecurity learning and testing only.
+### Evidence
+
+![7-Zip Installation](screenshots/01-7zip.png)
+
+---
+
+## Step 2: Install VirtualBox
+
+VirtualBox was installed as the virtualization platform for the cybersecurity laboratory.
+
+### Process
+
+1. Download VirtualBox.
+2. Install VirtualBox on the host computer.
+3. Launch VirtualBox.
+4. Confirm that the application opens correctly.
+
+### Evidence
+
+![VirtualBox](screenshots/02-virtualbox.png)
+
+---
+
+## Step 3: Create the NAT Network
+
+A dedicated NAT Network was configured in VirtualBox for the cybersecurity laboratory.
+
+### Network Configuration
+
+```text
+Network Name: NatNetwork
+IPv4 Prefix:  10.0.0.0/24
+DHCP:         Enabled
+IPv6:         Disabled
