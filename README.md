@@ -22,6 +22,25 @@ The project focused on setting up a practical cybersecurity lab environment and 
 - Linux networking tools
 - GitHub
 
+- ## Step 1: Download and Install 7-Zip
+
+7-Zip was downloaded and installed on the host computer.
+
+7-Zip was required to extract the compressed cybersecurity lab files before setting up the virtual machine environment.
+
+### Installation
+
+1. Download 7-Zip from the official website.
+2. Install 7-Zip on the host computer.
+3. Confirm that the installation completed successfully.
+4. Use 7-Zip to extract the required lab files.
+
+### Verification
+
+After installation, 7-Zip was available on the host system and ready to extract the required files.
+
+> Screenshot: Add a screenshot showing the 7-Zip installation or the extracted lab files here.
+
 ## Step 2: Install and Configure VirtualBox
 
 VirtualBox was used to create and manage the virtual machine for the cybersecurity lab.
