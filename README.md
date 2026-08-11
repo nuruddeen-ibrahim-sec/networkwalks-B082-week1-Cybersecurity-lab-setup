@@ -1,18 +1,23 @@
-# networkwalks-B082-week1-Cybersecurity-lab-setup
-CyberSecurity Lab Setup.
-What is the purpose of this?
+# Cybersecurity Lab Setup
 
-which step I followed?
-PHASE 1
+## NetworkWalks | Week 1 Cybersecurity Project
 
-Step 1. Download & install 7-zip: https://7-zip.org/download.html
+I completed my first hands-on cybersecurity project as part of the NetworkWalks B082 training program.
 
-Step 2. Download & install Virtualbox on your laptop/PC: https//virtualbox.org/wiki/Downloads
+The project focused on setting up a practical cybersecurity lab environment and preparing it for future cybersecurity and networking exercises.
 
-Step 3. Configure the network settings on your Virtualbox (create NATNetwork in 10.0.0.0/24)
+## Project Objectives
 
-Step 4. Download & import Kali Linux Virtual Machine in your Virtualbox: https://kali.org/get-kali
+- Set up a cybersecurity lab environment
+- Configure the network environment
+- Install and configure Kali Linux
+- Verify network connectivity
+- Prepare the environment for future cybersecurity practicals
+- Document the setup process and troubleshooting steps
 
-Step 5. Setup the IP configuration of Kali Linux.
+## Tools Used
 
-Step 6. Take snapshot of the VM
+- Kali Linux
+- VirtualBox
+- Linux networking tools
+- GitHub
