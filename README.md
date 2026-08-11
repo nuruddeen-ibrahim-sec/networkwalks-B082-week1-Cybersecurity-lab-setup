@@ -21,3 +21,41 @@ The project focused on setting up a practical cybersecurity lab environment and 
 - VirtualBox
 - Linux networking tools
 - GitHub
+
+## Step 2: Install and Configure VirtualBox
+
+VirtualBox was used to create and manage the virtual machine for the cybersecurity lab.
+
+### Installation
+
+I downloaded and installed Oracle VirtualBox on the host computer.
+
+### VirtualBox Configuration
+
+After installation, I opened VirtualBox and prepared the networking configuration for the Kali Linux virtual machine.
+
+The lab network was configured using a NAT Network.
+
+| Configuration | Value |
+|---|---|
+| Network Type | NAT Network |
+| Network Name | CyberLab-Network |
+| Network Range | 10.0.0.0/24 |
+| DHCP | Enabled |
+| Purpose | Isolated cybersecurity lab |
+
+### Why NAT Network?
+
+The NAT Network allows the virtual machines in the lab to communicate with each other while keeping the lab environment separated from the main network.
+
+### Verification
+
+I verified that the NAT Network was created successfully in VirtualBox and was available for the Kali Linux virtual machine.
+
+### Screenshot
+
+![VirtualBox Network Configuration](screenshots/virtualbox-network.png)
+
+### Notes
+
+This configuration was created as part of the NetworkWalks Week 1 cybersecurity lab setup. The environment will be used for authorized cybersecurity learning and testing only.
