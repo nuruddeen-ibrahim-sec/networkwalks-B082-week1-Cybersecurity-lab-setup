@@ -420,22 +420,58 @@ Possible future lab architecture:
 
 ---
 
-# 👤 Author
+## 👤 Author
 
-**Varad Payghan**
+**Muhammad Ibrahim | (NURUDDEEN)**
 
-B.Tech Computer Science Engineering
+Cybersecurity Student | NetworkWalks B082
 
-**Interests:** Cybersecurity • Ethical Hacking • Innovation & Automation
+### 🎯 Interests
+
+Cybersecurity • Ethical Hacking • Network Security • Linux • Penetration Testing
+
+### 🎓 Training
+
+**NetworkWalks Cybersecurity Training — B082**
+
+Currently developing practical skills in:
+
+- Cybersecurity fundamentals
+- Network security
+- Linux administration
+- Virtualization
+- Penetration testing
+- Network reconnaissance
+- Security tools and laboratory environments
+
+### 👨‍🏫 Mentor
+
+**Waqas Karim (CCIE)**
+
+Thank you for the technical guidance and practical learning opportunity throughout the training.
+
+---
+
+## 📊 Project Progress
+
+**6 / 6 Steps Completed ✅**
+
+> 🔐 Learn • Practice • Build • Secure
+
+**NetworkWalks Cybersecurity Training — Week 01**
+
+This project represents my first practical cybersecurity laboratory setup and provides the foundation for future security-testing and networking projects.
 
 ---
 
 ## ⭐ Acknowledgement
 
-This project was completed as part of my cybersecurity learning journey and serves as the foundation for future ethical hacking and penetration-testing projects.
+This project was completed as part of my **NetworkWalks B082 Cybersecurity Training**.
+
+I would like to thank my mentor, **Waqas Karim (CCIE)**, for the technical guidance and practical learning opportunity.
 
 ---
 
-### 🔐 Cybersecurity Journey — Task 01
+## 🚀 Cybersecurity Journey — Task 01
 
 **Set up the lab. Learn the tools. Practice safely. Build responsibly.**
